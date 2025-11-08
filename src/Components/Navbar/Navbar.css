@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 20px 100px;
 }
 .nav-manu{
     display: flex;
@@ -10,6 +10,10 @@
     list-style: none;
     gap: 60px;
     font-size: 20px;
+}
+
+.nav-manu li:hover{
+    transform: scale(1.05);
 }
 .nav-connect{
     padding: 20px 40px;

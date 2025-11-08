@@ -1,0 +1,29 @@
+/* src/components/ScrollToTop/ScrollToTop.css */
+
+.scroll-to-top {
+  position: fixed; /* Stays in one place */
+  bottom: 25px;
+  right: 25px;
+  z-index: 100; /* Stays on top of other content */
+
+  /* Styling */
+  background-color: #007bff; /* Example background color */
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; /* Makes it a circle */
+  
+  /* Centering the icon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3; /* Darker on hover */
+  transform: scale(1.1);
+}

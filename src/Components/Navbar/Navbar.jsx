@@ -6,7 +6,7 @@ import { useRef, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Navbar = () => {
-  const [active, setActive] = useState("home");
+  const [active, setActive] = useState("");
   const menuRef = useRef();
   const openMenu = () => {
     menuRef.current.style.right = "0";
@@ -28,7 +28,7 @@ const Navbar = () => {
         <li>
           <AnchorLink
             className={active === "home" ? "anchor-link active" : "anchor-link"}
-            offset={50}
+            offset={60}
             href="#home"
           >
             {" "}
@@ -71,7 +71,7 @@ const Navbar = () => {
         <li>
           <AnchorLink
             className={
-              active === "contect" ? "anchor-link active" : "anchor-link"
+              active === "contact" ? "anchor-link active" : "anchor-link"
             }
             offset={50}
             href="#contact"
@@ -80,17 +80,14 @@ const Navbar = () => {
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink
-            className={
-              active === "download_resume"
-                ? "anchor-link active"
-                : "anchor-link"
-            }
-            offset={40}
-            href="#download_resume"
+          <a
+            className="anchor-link"
+            href="/my_portfolio/Sanjay_Kumar_Resume_MERN.pdf"
+            download="Sanjay_kumar_resume.pdf"
+            onClick={closeMenu}
           >
-            <p onClick={() => setActive("download_resume")}>download resume</p>
-          </AnchorLink>
+            download resume
+          </a>
         </li>
       </ul>
       <div className="nav-connect">
