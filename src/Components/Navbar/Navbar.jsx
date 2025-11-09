@@ -82,7 +82,7 @@ const Navbar = () => {
         <li>
           <a
             className="anchor-link"
-            href="/my_portfolio/Sanjay_Kumar_Resume_MERN.pdf"
+            href="/Sanjay_Kumar_Resume_MERN.pdf"
             download="Sanjay_kumar_resume.pdf"
             onClick={closeMenu}
           >

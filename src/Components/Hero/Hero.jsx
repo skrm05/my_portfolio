@@ -57,7 +57,7 @@ const Hero = () => {
               &times;
             </button>
             <iframe
-              src="/my_portfolio/Sanjay_Kumar_Resume_MERN.pdf"
+              src="/Sanjay_Kumar_Resume_MERN.pdf"
               title="Sanjay Kumar Resume"
               width="100%"
               height="100%"
