@@ -14,22 +14,19 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am Sanjay Kumar, a 2023 BCA graduate and aspiring MERN stack
-              developer with a strong foundation in JavaScript, React, Node.js,
-              and MongoDB. I enjoy building clean, responsive, and scalable
-              applications that combine functionality with great user
-              experience. Through projects like a Daily Habit Tracker and a
-              Fertilizer Supply Chain Dashboard, I have gained hands-on
-              experience in solving real-world challenges with technology.
+              I'm <strong>Sanjay</strong> , a MERN Stack Developer who
+              transforms ideas into responsive and user-friendly applications.
+              With a strong command of <strong>React.js</strong> for the{" "}
+              <strong>front-end</strong> and
+              <strong>Node.js/Express.js</strong> for the{" "}
+              <strong> back-end</strong> , I focus on creating clean code and
+              seamless user experiences.
             </p>
             <p>
-              My true passion lies in web development—transforming ideas into
-              impactful digital solutions. I am eager to begin my professional
-              journey, contribute my skills to innovative projects, and grow
-              through continuous learning and collaboration. With curiosity,
-              dedication, and a problem-solving mindset, I aim to evolve into a
-              full-stack developer who delivers value and creates lasting
-              impact.
+              My practical skills were sharpened in an{" "}
+              <strong>intensive MERN stack program at JSpiders</strong> ,
+              preparing me to solve real-world challenges. You can see this in
+              action in my projects.
             </p>
           </div>
           <div className="about-skills">
